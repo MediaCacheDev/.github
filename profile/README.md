@@ -10,7 +10,9 @@ A universal media cache for every platform and framework, built for video first.
 
 ## Transparent video
 
-Transparent animation that plays the same on every platform, including browsers that can't show transparent video themselves.
+Transparent video is one of Android's longest-standing feature requests. Developers first asked ExoPlayer for it in [August 2020](https://github.com/google/ExoPlayer/issues/7789), and the request is still open in [androidx/media#1388](https://github.com/androidx/media/issues/1388). Six years on, neither Android's video decoders nor ExoPlayer can play a video's alpha channel. Google's latest update says the decoder changes aren't on the roadmap for the next release, with only groundwork for two-track video planned in Media3. Apps make do with WebViews, chroma keys or side-by-side masks. iOS has played transparent HEVC since 2019, and on the web Safari drops WebM's alpha.
+
+**alpha-video and alpha-video-gpu solve it on every platform:** Android, iOS, React Native and every modern browser, including the ones that can't show transparent video themselves.
 
 | Project | |
 |---|---|
